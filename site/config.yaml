@@ -1,0 +1,60 @@
+languageCode: vi-vn
+copyright: This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
+title: 12bit.vn
+description: write and share to learn
+baseURL: https://12bit.vn/
+theme: til
+enableGitInfo: true
+enableEmoji: true
+enableRobotsTXT: true
+googleAnalytics: UA-131517577-1
+paginate: 40
+social:
+  facebook: 12bit.vn
+author:
+  email: contact@12bit.vn
+  name: 12bit.vn
+authors:
+  vominh:
+    displayName: Vô Minh
+    social:
+      website: https://12bit.vn
+  tatthien:
+    displayName: Tất Thiện
+    social:
+      website: https://thien.dev
+outputs:
+  home:
+    - HTML
+    - RSS
+params:
+  description: write and share to learn
+  favicon: img/icon/favicon.png
+  images:
+    - img/index.png
+  facebookAppId: 363747664413304
+
+blackfriday:
+  hrefTargetBlank: true
+  noreferrerLinks: true
+menu:
+  main:
+    - identifier: about
+      title: Giới thiệu
+      url: /pages/about.html
+    - identifier: chat
+      title: Chat
+      url: https://discord.gg/uMJxpXB
+    - identifier: til
+      title: TIL
+      url: https://til.12bit.vn
+  footer:
+    - identifier: 1
+      title: Shortcodes
+      url: /pages/shortcodes.html
+    - identifier: 2
+      title: Donate
+      url:  https://ko-fi.com/12bitvn
+    - identifier: 3
+      title: RSS
+      url: /index.xml
